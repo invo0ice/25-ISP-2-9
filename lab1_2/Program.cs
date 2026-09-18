@@ -1,0 +1,23 @@
+﻿//вариант 15 сложный уровень
+Console.WriteLine("Введите координаты вершины A:");
+Console.WriteLine("x1:");
+double x1 = double.Parse(Console.ReadLine());
+Console.WriteLine("y1:");
+double y1 = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите координаты вершины B:");
+Console.WriteLine("x2:");
+double x2 = double.Parse(Console.ReadLine());
+Console.WriteLine("y2:");
+double y2 = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите координаты вершины C:");
+Console.WriteLine("x3:");
+double x3 = double.Parse(Console.ReadLine());
+Console.WriteLine("y3:");
+double y3 = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите координаты вершины D:");
+Console.WriteLine("x4:");
+double x4 = double.Parse(Console.ReadLine());
+Console.WriteLine("y4:");
+double y4 = double.Parse(Console.ReadLine());
+double P = (Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2))) + (Math.Sqrt(Math.Pow((x3 - x2), 2) + Math.Pow((y3 - y2), 2))) + (Math.Sqrt(Math.Pow((x4 - x3), 2) + Math.Pow((y4 - y3), 2))) + (Math.Sqrt(Math.Pow((x1 - x4), 2) + Math.Pow((y1 - y4), 2)));
+Console.WriteLine($"P={P:F2}");
