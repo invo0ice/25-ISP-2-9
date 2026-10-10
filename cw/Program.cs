@@ -70,22 +70,22 @@
 //    Console.WriteLine(e.Message);
 //}
 
-try
-{
-    Console.WriteLine("Введите число: ");
-    int m = int.Parse(Console.ReadLine());
-    Console.WriteLine("Введите другое число: ");
-    int b = int.Parse(Console.ReadLine());
-    int x = m / 100;
-    int y = m / 10 % 10;
-    int z = m % 10;
-    int v = x + y + z;
-    if(x*y*z>b) Console.WriteLine("Произведение цифр первого числа больше второго числа");
-    else Console.WriteLine("Произведение цифр первого числа меньше второго числа");
-    if (v % 3 == 0) Console.WriteLine("Сумма цифр первого числа кратна трём");
-    else Console.WriteLine("Сумма цифр первого числа не кратна трём");
-}
-catch (Exception e)
-{
-    Console.WriteLine(e.Message);
-}
+//try
+//{
+//    Console.WriteLine("Введите число: ");
+//    int m = int.Parse(Console.ReadLine());
+//    Console.WriteLine("Введите другое число: ");
+//    int b = int.Parse(Console.ReadLine());
+//    int x = m / 100;
+//    int y = m / 10 % 10;
+//    int z = m % 10;
+//    int v = x + y + z;
+//    if (x * y * z > b) Console.WriteLine("Произведение цифр первого числа больше второго числа");
+//    else Console.WriteLine("Произведение цифр первого числа меньше второго числа");
+//    if (v % 3 == 0) Console.WriteLine("Сумма цифр первого числа кратна трём");
+//    else Console.WriteLine("Сумма цифр первого числа не кратна трём");
+//}
+//catch (Exception e)
+//{
+//    Console.WriteLine(e.Message);
+//}
