@@ -5,4 +5,6 @@
   <Project Path="lab1_3/lab1_3.csproj" Id="87f97c08-9303-43bb-a94f-15bd7aa0cd7b" />
   <Project Path="lab3_1/lab3_1.csproj" Id="673b08be-7ac9-4062-85d2-196118648f52" />
   <Project Path="lab3_2/lab3_2.csproj" Id="ff0631be-ec4c-4f0b-9846-df2cb093336d" />
+  <Project Path="lab4_1+/lab4_1.csproj" Id="4619590c-4872-4ce5-a04c-999e80e6c842" />
+  <Project Path="mass/mass.csproj" Id="08aa80f5-7aa3-4f87-9594-8a63ee5b71fd" />
 </Solution>
