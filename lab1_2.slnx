@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="char/char.csproj" Id="719967ee-356e-4194-a25d-d4f49e63937a" />
   <Project Path="cw/lab2_2.csproj" Id="bf8c5daa-76b9-479a-900e-fdcbfebf79d6" />
   <Project Path="cycles/cycles.csproj" Id="2abe9763-29a3-45d1-a8cd-674635acefd0" />
   <Project Path="lab1_2/lab1_2.csproj" />
@@ -7,5 +8,6 @@
   <Project Path="lab3_2/lab3_2.csproj" Id="ff0631be-ec4c-4f0b-9846-df2cb093336d" />
   <Project Path="lab4_1+/lab4_1.csproj" Id="4619590c-4872-4ce5-a04c-999e80e6c842" />
   <Project Path="lab4_2/lab4_2.csproj" Id="e95dc1eb-2b23-4d92-b92c-a61eb843b5bf" />
+  <Project Path="lab5_1/lab5_1.csproj" Id="c1796b16-9535-47ea-9ac8-6cd7b96e4942" />
   <Project Path="mass/mass.csproj" Id="08aa80f5-7aa3-4f87-9594-8a63ee5b71fd" />
 </Solution>
