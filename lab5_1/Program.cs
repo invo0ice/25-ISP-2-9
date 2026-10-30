@@ -1,4 +1,5 @@
-﻿string s = Console.ReadLine()!;
+﻿//средний уровень 29 вариант
+string s = Console.ReadLine()!;
 char b = char.Parse(Console.ReadLine()!);
 string[] a = s.Split(' ');
 for (int i = 0; i < a.Length; i++)

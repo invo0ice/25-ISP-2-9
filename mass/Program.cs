@@ -274,3 +274,53 @@
 //}
 //Console.WriteLine($"Количество не отрицательных элементов во втором столбце: {count} ");
 
+//int[] a = new int[5];
+//Random r = new Random();
+//for(int i = 0; i < a.Length; i++)
+//{
+//    a[i] = r.Next(1,10);
+//    Console.Write(a[i]+" ");
+//}
+//Console.WriteLine();
+//Array.Clear(a);
+//for (int i = 0; i < a.Length; i++)
+//{
+//    a[i] = r.Next(1, 10);
+//    Console.Write(a[i] + " ");
+//}
+//Console.WriteLine();
+//int[] b = new int[5];
+//a.CopyTo(b);
+//for (int i = 0; i < a.Length; i++)
+//{
+//    Console.Write(b[i] + " ");
+//}
+//Console.WriteLine();
+//Array.Sort(b);
+//for (int i = 0; i < a.Length; i++)
+//{
+//    Console.Write(b[i] + " ");
+//}
+//Console.WriteLine();
+
+using System.Text.RegularExpressions;
+
+//string s = "Бык тупогуб, тупогубенький бычок, у быка бела губа была тупа";
+//Regex regex = new Regex(@"туп(\m*)");
+//MatchCollection matches = regex.Matches(s);
+//if(matches.Count > 0)
+//{
+//    foreach(Match match in matches)
+//        Console.WriteLine(match.Value);
+//}
+//else Console.WriteLine("Нет совпадений");
+
+
+Console.Write("Введите строку: ");
+string s = Console.ReadLine()!;
+string pattern = "[0-9]";
+
+if (Regex.IsMatch(s, pattern, RegexOptions.IgnoreCase))
+    Console.WriteLine("Цифра есть");
+else Console.WriteLine("Цифры нет");
+
