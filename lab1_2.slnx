@@ -12,6 +12,8 @@
   <Project Path="lab5_2/lab5_2.csproj" Id="b65226df-814a-47f2-8bae-9c4ef548d50c" />
   <Project Path="lab6_1/lab6_1.csproj" Id="16213281-e7d8-4255-bdfa-bcc278c681e7" />
   <Project Path="lab6_2/lab6_2.csproj" Id="cea22493-5bba-43ac-8ef9-fa832a437bfb" />
+  <Project Path="lab7_1/lab7_1.csproj" Id="52dcbb83-4350-4860-802d-4e8d3b7d5bcc" />
   <Project Path="mass/mass.csproj" Id="08aa80f5-7aa3-4f87-9594-8a63ee5b71fd" />
   <Project Path="OurClassLibruary/OurLibrary.csproj" Id="7318156f-8df8-4b3c-bb60-e21dbbd729ab" />
+  <Project Path="structures/structures.csproj" Id="ef332ba8-ce7e-464a-b79a-78cac9b92a9a" />
 </Solution>
