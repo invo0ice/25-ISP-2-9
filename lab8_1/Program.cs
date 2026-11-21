@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Текущие системное время: ");
+﻿//вариант 7 базовый уровень
+Console.WriteLine("Текущие системное время: ");
 Console.WriteLine(DateTime.Now);
 
 Console.WriteLine("Введите полное время начала звонка: ");
